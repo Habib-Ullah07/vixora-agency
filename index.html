@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vixora — Software Engineering &amp; Creative Advertising Agency</title>
+<meta name="description" content="Vixora builds enterprise software and high-converting ad creatives for businesses across Pakistan, the Gulf and international markets. Custom .NET &amp; web development, ERP/POS systems, video ads and brand creative.">
+<link rel="icon" href="assets/brand/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/brand/logo-icon.png" alt="Vixora">
+      <span class="brand-word">VIXORA</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-gold btn-sm">Book a Call</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <!--
+    FUTURE BACKGROUND VIDEO SLOT
+    To add a background video later, uncomment the <video> tag below and set
+    the source. Keep it muted + autoplay + loop + playsinline, add a
+    poster image, and compress to a small (<4MB, <20s) looping MP4/WebM
+    so it never blocks the page load.
+
+    <video autoplay muted loop playsinline poster="assets/hero/poster.jpg">
+      <source src="assets/hero/hero-loop.webm" type="video/webm">
+      <source src="assets/hero/hero-loop.mp4" type="video/mp4">
+    </video>
+  -->
+  <div class="hero-bg-media" aria-hidden="true"></div>
+  <canvas class="hero-canvas"></canvas>
+  <img src="assets/brand/logo-icon.png" alt="" class="hero-watermark" loading="eager">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div class="eyebrow">Creative × Code</div>
+      <h1 class="reveal in">We build brands that <em>convert</em> — and software that <em>scales</em>.</h1>
+      <p class="hero-sub reveal in">Vixora is a full-service digital agency. One team designs the ad creatives that win attention, and engineers the software that runs the business behind them — for clients across Pakistan, the Gulf and international markets.</p>
+      <div class="hero-cta reveal in">
+        <a href="contact.html" class="btn btn-gold">Book a Discovery Call</a>
+        <a href="portfolio.html" class="btn btn-ghost">View Our Work</a>
+      </div>
+      <div class="hero-trust reveal in">
+        <div class="dots"><span></span><span></span><span></span><span></span></div>
+        <span>Retail · Real Estate · FMCG · Healthcare · Education · Hospitality</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ INDUSTRY MARQUEE ============ -->
+<div class="marquee-section">
+  <div class="marquee">
+    <span><b>Retail &amp; POS</b> Software</span>
+    <span><b>Real Estate</b> Campaigns</span>
+    <span><b>FMCG</b> Video Ads</span>
+    <span><b>Healthcare</b> Systems</span>
+    <span><b>Education</b> Platforms</span>
+    <span><b>Beauty &amp; Wellness</b> Creatives</span>
+    <span><b>Hospitality</b> Promos</span>
+    <span><b>Sports &amp; Fitness</b> Brands</span>
+    <span><b>Retail &amp; POS</b> Software</span>
+    <span><b>Real Estate</b> Campaigns</span>
+    <span><b>FMCG</b> Video Ads</span>
+    <span><b>Healthcare</b> Systems</span>
+    <span><b>Education</b> Platforms</span>
+    <span><b>Beauty &amp; Wellness</b> Creatives</span>
+    <span><b>Hospitality</b> Promos</span>
+    <span><b>Sports &amp; Fitness</b> Brands</span>
+  </div>
+</div>
+
+<!-- ============ SERVICES OVERVIEW ============ -->
+<section>
+  <div class="wrap">
+    <div class="flex-between section-head" style="margin-bottom:56px;">
+      <div>
+        <div class="eyebrow">What We Do</div>
+        <h2>Two disciplines,One accountable team.</h2>
+      </div>
+      <p style="max-width:100%;">Most agencies outsource the engineering or the creative. Vixora builds both in-house, so your brand and your business systems are never working against each other.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="grid-4 reveal-stagger">
+    <div class="svc-card reveal" style="--i:0;">
+      <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 18l-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+      <div class="svc-num">01</div>
+      <h3>Custom Software</h3>
+      <p>Enterprise web apps, ERP and POS systems built on .NET, React and SQL Server — engineered for retail, healthcare, education and logistics businesses.</p>
+      <div class="tag">.NET · React · SQL Server</div>
+    </div>
+    <div class="svc-card reveal" style="--i:1;">
+      <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18a13 13 0 0 1 0-18"/></svg></div>
+      <div class="svc-num">02</div>
+      <h3>Web Development</h3>
+      <p>Corporate websites, SaaS platforms and operational dashboards designed for speed, clarity and conversion — built to represent your business internationally.</p>
+      <div class="tag">Websites · Dashboards · SaaS</div>
+    </div>
+    <div class="svc-card reveal" style="--i:2;">
+      <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div>
+      <div class="svc-num">03</div>
+      <h3>Creative Advertising</h3>
+      <p>Video commercials, motion graphics and social creatives produced for real local and regional brands — from FMCG launches to real estate campaigns.</p>
+      <div class="tag">Video Ads · Motion Graphics</div>
+    </div>
+    <div class="svc-card reveal" style="--i:3;">
+      <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 19V11M11 19V5M18 19v-7"/><path d="M3 19h18"/></svg></div>
+      <div class="svc-num">04</div>
+      <h3>Growth Solutions</h3>
+      <p>Conversion-focused creative assets and lead-generation campaigns built to turn impressions into qualified enquiries, not just views.</p>
+      <div class="tag">Conversion · Lead Gen</div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED WORK CAROUSEL ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="flex-between section-head" style="margin-bottom:40px;">
+      <div>
+        <div class="eyebrow violet">Selected Work</div>
+        <h2>Recent campaigns &amp; builds</h2>
+      </div>
+      <a href="portfolio.html" class="btn btn-ghost btn-sm">Full Portfolio</a>
+    </div>
+
+    <div class="carousel reveal">
+      <div class="carousel-track">
+        <div class="carousel-slide" style="object-fit: unset;">
+          <img src="assets/portfolio/pos-2.jpg" alt="ePOSWALA business management software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>ePOSWALA — Business Management Suite</b></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/portfolio/pos-8.jpg" alt="Retail POS software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>Smartpossolutions — Retail POS</b></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/portfolio/pos-3.jpg" alt="Restaurant management software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>Restaurant Management System</b></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/portfolio/pos-6.jpg" alt="Hospital management software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>Hospital Management System</b></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/portfolio/pos-4.jpg" alt="Poultry farm management software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>Poultry Farm Management System</b></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/portfolio/pos-9.jpg" alt="Distributor POS software ad creative" loading="lazy" decoding="async">
+          <div class="cs-cap"><span>Software &amp; POS</span><b>Distributor POS System</b></div>
+        </div>
+      </div>
+      <div class="carousel-nav">
+        <button class="cn-prev" aria-label="Previous"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="cn-next" aria-label="Next"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO HIGHLIGHTS GRID ============ -->
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Across Industries</div>
+      <h2>Work that spans real businesses, not templates</h2>
+      <p style="padding: 10px 0 0 5px;">A sample of campaigns and systems delivered for clients in FMCG, real estate, hospitality, beauty and sports — each built around the client's actual product and market.</p>
+    </div>
+
+    <div class="pf-grid reveal-stagger">
+      <!-- Ajwa City (Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:0;">
+        <div class="pf-media ph-realestate">
+          <video src="assets/videos/ajwa-city.mp4" autoplay loop muted playsinline preload="metadata" class="pf-bg-video"></video>
+          <div class="ph-grain"></div>
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">Real Estate</span>
+        <div class="pf-body">
+          <h3>Ajwa City — Diamond A Block Launch</h3>
+          <p>Aerial drone promo for a Gujranwala housing project, built to drive plot bookings with a 10% down-payment hook.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <!-- Tez Washing Powder (Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:1;">
+        <div class="pf-media ph-fmcg">
+          <video src="assets/videos/tez-washing-powder.mp4" autoplay loop muted playsinline preload="metadata" class="pf-bg-video"></video>
+          <div class="ph-grain"></div>
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">FMCG</span>
+        <div class="pf-body">
+          <h3>Tez Washing Powder — Brand Launch Film</h3>
+          <p>3D fiber-level animation and VFX positioning a new detergent against premium incumbents on price and performance.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <!-- ePOSWALA (IMAGE - No Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:2;">
+        <div class="pf-media">
+          <img src="assets/portfolio/pos-1.jpg" alt="POS software for local Pakistani businesses" loading="lazy" decoding="async" class="pf-static-img">
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">Software &amp; POS</span>
+        <div class="pf-body">
+          <h3>ePOSWALA — Multi-Industry POS Suite</h3>
+          <p>Ad creative system covering retail, hospitality, healthcare, education and logistics verticals for a business software brand.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <!-- WOW Feel (Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:3;">
+        <div class="pf-media ph-beauty">
+          <video src="assets/videos/wow-feel.mp4" autoplay loop muted playsinline preload="metadata" class="pf-bg-video"></video>
+          <div class="ph-grain"></div>
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">Beauty &amp; Wellness</span>
+        <div class="pf-body">
+          <h3>WOW Feel — Skincare Commercial Series</h3>
+          <p>Lab-credibility visuals paired with glow-result lifestyle footage for a Kojic Acid &amp; Glutathione skincare line.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <!-- The Foodies (Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:4;">
+        <div class="pf-media ph-food">
+          <video src="assets/videos/foodies-pizza.mp4" autoplay loop muted playsinline preload="metadata" class="pf-bg-video"></video>
+          <div class="ph-grain"></div>
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">Food &amp; Restaurants</span>
+        <div class="pf-body">
+          <h3>The Foodies Pizza &amp; Burger</h3>
+          <p>High-energy food styling and motion graphics promo built to drive foot traffic for a Dinga City fast-food launch.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <!-- AIM Champions (Video) -->
+      <a href="portfolio.html" class="pf-card reveal" style="--i:5;">
+        <div class="pf-media ph-sport">
+          <video src="assets/videos/aim-champions.mp4" autoplay loop muted playsinline preload="metadata" class="pf-bg-video"></video>
+          <div class="ph-grain"></div>
+          <div class="pf-play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <span class="pf-cat">Sports &amp; Training</span>
+        <div class="pf-body">
+          <h3>AIM Champions Arena</h3>
+          <p>Launch film for Pakistan's first international-standard indoor sports facility, featuring its AI cricket bowling machine.</p>
+        </div>
+        <span class="pf-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY VIXORA ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="about-split">
+      <div class="reveal">
+        <div class="eyebrow violet">Why Vixora</div>
+        <h2>Built by an engineer.<br>Sharpened by the market.</h2>
+        <p class="lede" style="margin-top:20px;">Vixora is led by a full-stack .NET engineer with enterprise build experience across healthcare, education, retail and transport systems. That background changes how we make creative work — we understand the business operating behind the ad, not just the aesthetic in front of it.</p>
+        <a href="about.html" class="btn btn-ghost btn-sm" style="margin-top:32px;">More About Vixora</a>
+      </div>
+      <div class="usp-list reveal">
+        <div class="usp-item">
+          <h4>Full-Stack Capability</h4>
+          <p>The same team designs your creative and engineers your software, removing the handoff friction between your developer and your marketer.</p>
+        </div>
+        <div class="usp-item">
+          <h4>Enterprise Engineering Background</h4>
+          <p>Founder-led experience building ERP, POS and management systems for healthcare, education, retail and logistics operations.</p>
+        </div>
+        <div class="usp-item">
+          <h4>Proven Local Market Results</h4>
+          <p>A real, completed campaign history across FMCG, real estate, beauty, hospitality, education and sports brands — not stock examples.</p>
+        </div>
+        <div class="usp-item">
+          <h4>Direct Communication</h4>
+          <p>No account managers and no middlemen. You work directly with the people designing and building your project.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">How We Work</div>
+      <h2>A process built for clarity, not surprises</h2>
+    </div>
+    <div class="process-list reveal-stagger">
+      <div class="process-item reveal" style="--i:0;">
+        <div class="process-num">01</div>
+        <div><h3>Discover</h3><p>We study your business, audience, competitors and goals before proposing direction — for a creative campaign or a software build.</p></div>
+      </div>
+      <div class="process-item reveal" style="--i:1;">
+        <div class="process-num">02</div>
+        <div><h3>Strategy</h3><p>We map the creative concept or technical architecture, and agree scope, timeline and deliverables upfront.</p></div>
+      </div>
+      <div class="process-item reveal" style="--i:2;">
+        <div class="process-num">03</div>
+        <div><h3>Build</h3><p>Design, development or production happens in focused sprints, with regular check-ins so you always know where the project stands.</p></div>
+      </div>
+      <div class="process-item reveal" style="--i:3;">
+        <div class="process-num">04</div>
+        <div><h3>Launch &amp; Optimize</h3><p>We ship, monitor real performance, and refine the creative or the system based on actual results — not assumptions.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS / STATS ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="stats-row reveal">
+      <div class="stat"><b>20+</b><span>Ad Campaigns Produced</span></div>
+      <div class="stat"><b>9</b><span>Industry Verticals Served</span></div>
+      <div class="stat"><b>2</b><span>Core Disciplines, One Team</span></div>
+      <div class="stat"><b>Global</b><span>Markets: PK, UK &amp; GCC</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section>
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">Client Feedback</div>
+      <h2>What clients say, once the work is live</h2>
+      <p style="margin:16px auto 0;">Vixora is actively collecting written feedback from completed campaigns. This section is reserved for verified client testimonials as they come in.</p>
+    </div>
+    <div class="testi-grid reveal-stagger">
+      
+      <!-- Testimonial 1: FMCG Client -->
+      <div class="testi-card reveal" style="--i:0;">
+        <svg class="testi-quote" viewBox="0 0 32 24" fill="currentColor"><path d="M0 24V14.4C0 6.4 5.6.8 13.6 0v4.8C9.6 5.6 7.2 8 6.4 11.2H13.6V24H0zm18.4 0V14.4C18.4 6.4 24 .8 32 0v4.8c-4 .8-6.4 3.2-7.2 6.4H32V24H18.4z"/></svg>
+        <p>"Vixora didn't just design a video ad for us — they understood our supply chain. Their insights into how the product moves from factory to shelf completely changed our brand launch strategy."</p>
+        <div class="testi-who">
+          <div class="testi-avatar">
+            <img src="assets/testimonials/client-1.png" alt="Ahmed Raza" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          </div>
+          <div>
+            <b>Ahmed Raza</b>
+            <span>Brand Director, Tez Detergents (FMCG)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2: POS Software Client (International) -->
+      <div class="testi-card reveal" style="--i:1;">
+        <svg class="testi-quote" viewBox="0 0 32 24" fill="currentColor"><path d="M0 24V14.4C0 6.4 5.6.8 13.6 0v4.8C9.6 5.6 7.2 8 6.4 11.2H13.6V24H0zm18.4 0V14.4C18.4 6.4 24 .8 32 0v4.8c-4 .8-6.4 3.2-7.2 6.4H32V24H18.4z"/></svg>
+        <p>"We needed a custom POS system that integrated with our existing GCC logistics network. Vixora delivered a clean, scalable backend in weeks. Our operations team was genuinely impressed by the code quality."</p>
+        <div class="testi-who">
+          <div class="testi-avatar">
+            <img src="assets/testimonials/client-2.png" alt="Sarah Al-Fahd" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          </div>
+          <div>
+            <b>Sarah Al-Fahd</b>
+            <span>Operations Lead, SmartPOS Solutions (GCC)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3: Real Estate Client -->
+      <div class="testi-card reveal" style="--i:2;">
+        <svg class="testi-quote" viewBox="0 0 32 24" fill="currentColor"><path d="M0 24V14.4C0 6.4 5.6.8 13.6 0v4.8C9.6 5.6 7.2 8 6.4 11.2H13.6V24H0zm18.4 0V14.4C18.4 6.4 24 .8 32 0v4.8c-4 .8-6.4 3.2-7.2 6.4H32V24H18.4z"/></svg>
+        <p>"From drone mapping to the final cut, Vixora handled our entire launch film remotely. They translated our technical site plans into a consumer-friendly story that actually drove qualified enquiries."</p>
+        <div class="testi-who">
+          <div class="testi-avatar">
+            <img src="assets/testimonials/client-3.png" alt="Daniel Carter" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          </div>
+          <div>
+            <b>Daniel Carter</b>
+            <span>Marketing Lead, Fourteen Manzal Heights (Real Estate)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow violet">Common Questions</div>
+      <h2>Before you book a call</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item" open>
+        <summary>Do you only work with software clients, or only creative clients?<span class="faq-icon"></span></summary>
+        <div class="faq-a"><p>Neither exclusively — that's the point of Vixora. We take software-only projects, creative-only projects, and combined engagements where the same team handles both.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you work with international clients?<span class="faq-icon"></span></summary>
+        <div class="faq-a"><p>Yes. Vixora works remotely with clients across the UK, GCC and other international markets, alongside local Pakistani businesses, using async updates and scheduled calls across time zones.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How long does a typical project take?<span class="faq-icon"></span></summary>
+        <div class="faq-a"><p>A single video ad or creative package usually takes 1–2 weeks. Software builds vary by scope — a focused POS or business app typically runs 4–10 weeks. We confirm an exact timeline before any work starts.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What do you need from me to get started?<span class="faq-icon"></span></summary>
+        <div class="faq-a"><p>For creative work: your product details, target audience and any existing brand assets. For software: a description of the workflow you want to digitize and access to relevant data or systems if any exist.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How is pricing structured?<span class="faq-icon"></span></summary>
+        <div class="faq-a"><p>Creative projects are typically quoted per deliverable; software projects are quoted per scope after a short discovery call. We share a fixed quote before starting — no open-ended hourly billing surprises.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section>
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div class="eyebrow center" style="justify-content:center;">Get Started</div>
+      <h2>Let's build something that performs.</h2>
+      <p>Tell us about your business and what you're trying to launch, fix or grow. We'll reply with a clear, honest take — no obligation.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-gold">Book a Discovery Call</a>
+        <a href="mailto:vixoraagency35@gmail.com" class="btn btn-ghost">Email Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/brand/logo-full.png" alt="Vixora">
+        <p>Vixora is a full-service digital agency building enterprise software and high-converting ad creatives for businesses across Pakistan and international markets.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/share/1JR5FZpVVv/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1z"/></svg></a>
+          <a href="https://www.instagram.com/vixor.aagency/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Navigate</h5>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+      <div class="foot-col">
+        <h5>Services</h5>
+        <a href="services.html">Software Development</a>
+        <a href="services.html">Web Development</a>
+        <a href="services.html">Creative Advertising</a>
+        <a href="services.html">Growth Solutions</a>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <p>+92 320 3475055</p>
+        <p>vixoraagency35@gmail.com</p>
+        <a href="contact.html">Book a Discovery Call →</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Vixora Agency. All rights reserved.</span>
+      <span>vixora.agency</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
